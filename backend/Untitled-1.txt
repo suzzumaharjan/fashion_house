@@ -1,0 +1,9 @@
+//for table headers
+
+<?php for($key = 0; $key <5;$key++){?>
+                    <td><?=$keys[$key]?></td>
+                <?php }?> 
+                <?php for($j = 0;$j< $add;$j++){?>
+                <td> <?=$additionals[$j]?></td>
+                <?php }?>
+                
